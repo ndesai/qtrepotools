@@ -761,7 +761,7 @@ while (<DIFF>) {
             }
         }
         check_spelling() if ($spell_check);
-        check_apple_terminology() if ($apple_check);
+        # check_apple_terminology() if ($apple_check);
     } else {
         flushChunk() if ($chunk);
         if (/^ /) {
